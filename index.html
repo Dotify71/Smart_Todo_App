@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Todo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cursor-glow"></div>
+    <div class="grid-background"></div>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>Smart Todo</h1>
+        </header>
+
+        <main class="app-main">
+            <div class="task-input-container">
+                <input type="text" id="task-input" placeholder="What needs to be done?">
+                <button id="add-task-btn">Add</button>
+            </div>
+
+            <div class="task-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="pending">Pending</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+            </div>
+
+            <ul id="task-list" class="task-list">
+            </ul>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
