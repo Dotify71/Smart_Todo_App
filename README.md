@@ -1,8 +1,8 @@
-# 🌌 Smart Todo App
+#  Smart Todo App
 
 A futuristic, highly polished Todo List web application built with pure HTML, CSS, and JavaScript. 
 
-## ✨ Features
+##  Features
 
 *   **Zero-Gravity UI**: Task items naturally float and drift on the screen using performant CSS animations and randomized staggering.
 *   **Magnetic Cursor Repulsion**: Tasks react interactively to your mouse, getting smoothly pushed away as your cursor gets close.
@@ -11,7 +11,7 @@ A futuristic, highly polished Todo List web application built with pure HTML, CS
 *   **Smart Filtering**: Instantly sort your workflow by All, Pending, or Completed tasks.
 *   **Fully Responsive**: Fluid layout that works perfectly on both desktop and mobile devices.
 
-## 🚀 Live Demo
+##  Live Demo
 
 *(Add your Live Preview link here)*
 
@@ -27,16 +27,16 @@ A futuristic, highly polished Todo List web application built with pure HTML, CS
    ```
 3. Open `index.html` in your web browser. 
 
-## 🏗️ Technical Details
+##  Technical Details
 
 Built entirely from scratch with Vanilla JavaScript, HTML5, and CSS3. 
 *   **Styling**: Uses CSS variables, `gap`, modern `translate` properties, and flexible `cubic-bezier` transitions for smooth interactions.
 *   **Performance**: Repulsion animations utilize `requestAnimationFrame()` and the independent CSS `translate` property to maintain 60 FPS without layout thrashing.
 *   **Data Handling**: Tasks are manipulated functionally using `map()` and `filter()` and mapped statefully to the DOM.
 
-## 🤝 Contributing
+##  Contributing
 Contributions, issues, and feature requests are welcome!
 
-## 📝 License
+##  License
 
 Distributed under the MIT License.
